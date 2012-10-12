@@ -21,6 +21,10 @@
 		C3ADF2DB16279FD000FDA8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3ADF2BC16279FD000FDA8DE /* Foundation.framework */; };
 		C3ADF2E316279FD000FDA8DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3ADF2E116279FD000FDA8DE /* InfoPlist.strings */; };
 		C3ADF2E616279FD000FDA8DE /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADF2E516279FD000FDA8DE /* MyDemoTests.m */; };
+		C3ADF2F21627A00A00FDA8DE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADF2F01627A00A00FDA8DE /* RootViewController.m */; };
+		C3ADF2F31627A00A00FDA8DE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3ADF2F11627A00A00FDA8DE /* RootViewController.xib */; };
+		C3ADF2FB1627AD9600FDA8DE /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADF2F91627AD9600FDA8DE /* ChapterViewController.m */; };
+		C3ADF2FC1627AD9600FDA8DE /* ChapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3ADF2FA1627AD9600FDA8DE /* ChapterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		C3ADF2E216279FD000FDA8DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3ADF2E416279FD000FDA8DE /* MyDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDemoTests.h; sourceTree = "<group>"; };
 		C3ADF2E516279FD000FDA8DE /* MyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoTests.m; sourceTree = "<group>"; };
+		C3ADF2EF1627A00A00FDA8DE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C3ADF2F01627A00A00FDA8DE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C3ADF2F11627A00A00FDA8DE /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C3ADF2F81627AD9600FDA8DE /* ChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterViewController.h; sourceTree = "<group>"; };
+		C3ADF2F91627AD9600FDA8DE /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
+		C3ADF2FA1627AD9600FDA8DE /* ChapterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,12 @@
 		C3ADF2AB16279FD000FDA8DE = {
 			isa = PBXGroup;
 			children = (
+				C3ADF2F81627AD9600FDA8DE /* ChapterViewController.h */,
+				C3ADF2F91627AD9600FDA8DE /* ChapterViewController.m */,
+				C3ADF2FA1627AD9600FDA8DE /* ChapterViewController.xib */,
+				C3ADF2EF1627A00A00FDA8DE /* RootViewController.h */,
+				C3ADF2F01627A00A00FDA8DE /* RootViewController.m */,
+				C3ADF2F11627A00A00FDA8DE /* RootViewController.xib */,
 				C3ADF2C016279FD000FDA8DE /* MyDemo */,
 				C3ADF2DE16279FD000FDA8DE /* MyDemoTests */,
 				C3ADF2B916279FD000FDA8DE /* Frameworks */,
@@ -227,6 +243,8 @@
 				C3ADF2CD16279FD000FDA8DE /* Default.png in Resources */,
 				C3ADF2CF16279FD000FDA8DE /* Default@2x.png in Resources */,
 				C3ADF2D116279FD000FDA8DE /* Default-568h@2x.png in Resources */,
+				C3ADF2F31627A00A00FDA8DE /* RootViewController.xib in Resources */,
+				C3ADF2FC1627AD9600FDA8DE /* ChapterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +281,8 @@
 			files = (
 				C3ADF2C716279FD000FDA8DE /* main.m in Sources */,
 				C3ADF2CB16279FD000FDA8DE /* AppDelegate.m in Sources */,
+				C3ADF2F21627A00A00FDA8DE /* RootViewController.m in Sources */,
+				C3ADF2FB1627AD9600FDA8DE /* ChapterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
